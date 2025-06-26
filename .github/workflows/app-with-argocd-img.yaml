@@ -71,7 +71,7 @@ jobs:
       with:
         repository: kaiju782/app-with-argocd-img-manifest
         ref: main
-        token: ${{ secrets.TOKEN }}
+        token: ${{ secrets.GH_TOKEN }}
         
     - name: Set SHORT_SHA env
       run: echo "SHORT_SHA=${GITHUB_SHA::7}" >> $GITHUB_ENV
