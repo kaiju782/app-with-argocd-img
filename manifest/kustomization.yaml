@@ -4,4 +4,4 @@ resources:
 images:
   - name: argocd-img-container
   - newName: nginx
-  - newTag: "1.23"
+  - newTag: "latest"
