@@ -14,4 +14,4 @@ spec:
     spec:
       containers:
       - name: argocd-img-container
-        image: kaiju782/app-with-argocd-img:c1bbca8
+        image: kaiju782/app-with-argocd-img:f12543c
