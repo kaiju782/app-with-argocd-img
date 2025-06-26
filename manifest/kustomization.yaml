@@ -1,7 +1,8 @@
 resources:
   - argocd-img-deployment.yaml
   - argocd-img-service.yaml
+
 images:
-  - name: nginx
-  - newName: nginx
-  - newTag: "1.23"
+  - name: nginx          # 매칭 기준
+    newName: nginx       # 원본과 같아도 유지 OK
+    newTag: "1.23"       # 바꿀 태그
