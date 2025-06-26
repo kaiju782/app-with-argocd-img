@@ -69,7 +69,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
       with:
-        repository: ${{ secrets.GH_USERNAME }}/${{ GH_REPOSITORY }}
+        repository: kaiju782/app-with-argocd-img-manifest
         ref: main
         token: ${{ secrets.GH_TOKEN }}
         
